@@ -117,6 +117,11 @@ ul{
   color: var(--primary-text-color);
   }
 
+  .header-contacts-link:hover{
+  color: var(--accent-color);
+
+  }
+ 
   .header-contacts-link{
   width: 135px;
   height: 16px;
@@ -127,20 +132,16 @@ ul{
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
-  color: var(--accent-color); 
+  color: var(--secondary-text-color); 
     }
 
   .header-contacts{
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color); 
+  color: var(--secondary-text-color); 
     }
 
  .header{
@@ -152,6 +153,7 @@ ul{
   }
 
   .header-title{
+    
   font-family: 'Roboto';
   font-weight: 900;
   font-size: 44px;
@@ -169,10 +171,6 @@ ul{
 }
 
   .header-button{
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 360px;
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -187,9 +185,7 @@ ul{
   }
 
   .features-title{
-  
-  top: 640px;
-  left: -150px;
+
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -298,16 +294,16 @@ ul{
     background: url(.jpg); 
   }
 
-  .section{
+ /*.section{
     padding-top: 130px;
     padding-bottom: 130px;
-  }
+  }*/
 
-.container{
+/*.container{
   width: 1280px;
   padding: 0 55px;
   margin: 0 auto;
-}
+}*/
 
 .disp-flex{
   display: flex;
@@ -320,8 +316,16 @@ ul{
   margin-left: 30px;
 }
 
+/*.team-name{
+  text-align: center;
+}*/
+
+.marg-top{
+  margin-top: 30px;
+}
+
 .team-title{ 
-  font-family: 'Roboto';
+  
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -336,9 +340,9 @@ ul{
 
 .team-item{
   width: 270px;
-  height: 368px;
+  height: 428px;
   left: 215px;
-  top: 1635px;
+  top: 1785px;
   background-color: var(--light-bg-color); 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;  
@@ -354,7 +358,7 @@ ul{
   }
                
   .team-item-title{
-  font-family: 'Roboto';
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -364,7 +368,7 @@ ul{
   }
 
   .team-title-position{ 
-    font-family: 'Roboto';
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -375,7 +379,7 @@ ul{
 
   
   
-  /*.circ-fill{
+  .circ-fill{
     fill:white
   }
 
@@ -387,16 +391,22 @@ ul{
     fill: #afb1b8;
   }
 
-  .svg-responsive:hover{
+  .display-flex{
+    display: flex;
+    margin-top: -30px;
+    margin-left: -30px;
+  }
+
+  /*.svg-responsive:hover{
     fill: white;
   }*/
                
   .team-2{
     
     width: 270px;
-    height: 368px;
+    height: 428px;
     left: 515px;
-    top: 1635px; 
+    top: 1785px; 
     background: var(--light-bg-color);  
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px 
@@ -412,7 +422,7 @@ ul{
 }
               
 .team-item-title-1{
-  font-family: 'Roboto';
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18; 
@@ -423,7 +433,7 @@ ul{
               
 .team-title-position-1{
 
-  font-family: 'Roboto';
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -435,9 +445,9 @@ ul{
 .team-3{
   
   width: 270px;
-  height: 368px;
+  height: 428px;
   left: 815px;
-  top: 1635px;
+  top: 1785px;
   background: var(--light-bg-color); 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px; 
@@ -453,7 +463,7 @@ ul{
 }
               
 .team-item-title-2{
-  font-family: 'Roboto';
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -463,7 +473,7 @@ ul{
 }
               
 .team-title-position-2{
-  font-family: 'Roboto';
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -475,9 +485,9 @@ ul{
 .team-4{
 
 width: 270px;
-height: 368px;
+height: 428px;
 left: 1115px;
-top: 1635px;
+top: 1785px;
 background: var(--light-bg-color);
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
@@ -494,7 +504,7 @@ border-radius: 0px 0px 4px 4px;
               
 .team-item-title-3{
 
-  font-family: 'Roboto';
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -504,7 +514,7 @@ border-radius: 0px 0px 4px 4px;
 }
               
 .team-title-position-3{
-  font-family: 'Roboto';
+  
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
